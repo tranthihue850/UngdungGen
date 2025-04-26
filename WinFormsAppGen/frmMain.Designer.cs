@@ -36,6 +36,8 @@
             label2 = new Label();
             txtPopulationMax = new TextBox();
             label3 = new Label();
+            btnTuongdong = new Button();
+            btnDo = new Button();
             SuspendLayout();
             // 
             // btnThuchien
@@ -106,11 +108,33 @@
             label3.TabIndex = 7;
             label3.Text = "Kết quả tốt nhất:";
             // 
+            // btnTuongdong
+            // 
+            btnTuongdong.Location = new Point(469, 11);
+            btnTuongdong.Name = "btnTuongdong";
+            btnTuongdong.Size = new Size(121, 23);
+            btnTuongdong.TabIndex = 8;
+            btnTuongdong.Text = "Tính tương đồng";
+            btnTuongdong.UseVisualStyleBackColor = true;
+            btnTuongdong.Click += btnTuongdong_Click;
+            // 
+            // btnDo
+            // 
+            btnDo.Location = new Point(637, 59);
+            btnDo.Name = "btnDo";
+            btnDo.Size = new Size(75, 23);
+            btnDo.TabIndex = 9;
+            btnDo.Text = "cấu hình";
+            btnDo.UseVisualStyleBackColor = true;
+            btnDo.Click += btnDo_Click;
+            // 
             // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnDo);
+            Controls.Add(btnTuongdong);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(txtPopulationMax);
@@ -135,5 +159,7 @@
         private Label label2;
         private TextBox txtPopulationMax;
         private Label label3;
+        private Button btnTuongdong;
+        private Button btnDo;
     }
 }

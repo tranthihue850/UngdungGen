@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WinFormsAppGen
+{
+    public class Common
+    {
+        public const string SqlInsertRun = "INSERT INTO GeneticRunInfo (Generation, BestFitness, BestSolution, DataSearch, SearchType) VALUES ({0}, {1}, '{2}','{3}','{4}')";
+    }
+}
