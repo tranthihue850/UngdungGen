@@ -8,6 +8,7 @@ namespace WinFormsAppGen
 {
     public class Common
     {
-        public const string SqlInsertRun = "INSERT INTO GeneticRunInfo (Generation, BestFitness, BestSolution, DataSearch, SearchType) VALUES ({0}, {1}, '{2}','{3}','{4}')";
+        public const string SqlInsertRun = "INSERT INTO GeneticRunInfo (Generation, BestFitness, BestSolution, DataSearch, SearchType, MinPopulation, MaxPopulation) VALUES ({0}, {1}, '{2}','{3}','{4}',{5},{6})";
+        public const string SqlSelectRun = "SELECT * FROM GeneticRunInfo Order by CreatedAt Desc";
     }
 }

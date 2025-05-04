@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             btnThuchien = new Button();
             richTextBox1 = new RichTextBox();
             txtKetqua = new TextBox();
@@ -37,12 +38,17 @@
             txtPopulationMax = new TextBox();
             label3 = new Label();
             btnTuongdong = new Button();
-            btnDo = new Button();
+            dataGridViewRun = new DataGridView();
+            mainMenuStrip = new MenuStrip();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            inputStudentToolStripMenuItem = new ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)dataGridViewRun).BeginInit();
+            mainMenuStrip.SuspendLayout();
             SuspendLayout();
             // 
             // btnThuchien
             // 
-            btnThuchien.Location = new Point(637, 12);
+            btnThuchien.Location = new Point(804, 31);
             btnThuchien.Name = "btnThuchien";
             btnThuchien.Size = new Size(75, 23);
             btnThuchien.TabIndex = 0;
@@ -52,7 +58,7 @@
             // 
             // richTextBox1
             // 
-            richTextBox1.Location = new Point(33, 68);
+            richTextBox1.Location = new Point(12, 31);
             richTextBox1.Name = "richTextBox1";
             richTextBox1.Size = new Size(232, 203);
             richTextBox1.TabIndex = 1;
@@ -110,7 +116,7 @@
             // 
             // btnTuongdong
             // 
-            btnTuongdong.Location = new Point(469, 11);
+            btnTuongdong.Location = new Point(659, 31);
             btnTuongdong.Name = "btnTuongdong";
             btnTuongdong.Size = new Size(121, 23);
             btnTuongdong.TabIndex = 8;
@@ -118,22 +124,44 @@
             btnTuongdong.UseVisualStyleBackColor = true;
             btnTuongdong.Click += btnTuongdong_Click;
             // 
-            // btnDo
+            // dataGridViewRun
             // 
-            btnDo.Location = new Point(637, 59);
-            btnDo.Name = "btnDo";
-            btnDo.Size = new Size(75, 23);
-            btnDo.TabIndex = 9;
-            btnDo.Text = "cấu hình";
-            btnDo.UseVisualStyleBackColor = true;
-            btnDo.Click += btnDo_Click;
+            dataGridViewRun.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewRun.Location = new Point(12, 244);
+            dataGridViewRun.Name = "dataGridViewRun";
+            dataGridViewRun.RowTemplate.Height = 25;
+            dataGridViewRun.Size = new Size(901, 255);
+            dataGridViewRun.TabIndex = 10;
+            // 
+            // mainMenuStrip
+            // 
+            mainMenuStrip.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1 });
+            mainMenuStrip.Location = new Point(0, 0);
+            mainMenuStrip.Name = "mainMenuStrip";
+            mainMenuStrip.Size = new Size(937, 24);
+            mainMenuStrip.TabIndex = 11;
+            mainMenuStrip.Text = "menuStrip1";
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { inputStudentToolStripMenuItem });
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            toolStripMenuItem1.Size = new Size(46, 20);
+            toolStripMenuItem1.Text = "Main";
+            // 
+            // inputStudentToolStripMenuItem
+            // 
+            inputStudentToolStripMenuItem.Name = "inputStudentToolStripMenuItem";
+            inputStudentToolStripMenuItem.Size = new Size(180, 22);
+            inputStudentToolStripMenuItem.Text = "Input Student";
+            inputStudentToolStripMenuItem.Click += inputStudentToolStripMenuItem_Click;
             // 
             // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(btnDo);
+            ClientSize = new Size(937, 511);
+            Controls.Add(dataGridViewRun);
             Controls.Add(btnTuongdong);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -143,8 +171,14 @@
             Controls.Add(txtKetqua);
             Controls.Add(richTextBox1);
             Controls.Add(btnThuchien);
+            Controls.Add(mainMenuStrip);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MainMenuStrip = mainMenuStrip;
             Name = "frmMain";
             Text = "Genertic";
+            ((System.ComponentModel.ISupportInitialize)dataGridViewRun).EndInit();
+            mainMenuStrip.ResumeLayout(false);
+            mainMenuStrip.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -160,6 +194,9 @@
         private TextBox txtPopulationMax;
         private Label label3;
         private Button btnTuongdong;
-        private Button btnDo;
+        private DataGridView dataGridViewRun;
+        private MenuStrip mainMenuStrip;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem inputStudentToolStripMenuItem;
     }
 }
