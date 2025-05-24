@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStudent));
             btnSave = new Button();
             label1 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            textBoxStudentId = new TextBox();
+            textBoxFullName = new TextBox();
             label2 = new Label();
-            textBox3 = new TextBox();
+            textBoxAddress = new TextBox();
             label3 = new Label();
             btnLoad = new Button();
             dataGridViewStudent = new DataGridView();
@@ -60,19 +60,19 @@
             label1.TabIndex = 1;
             label1.Text = "Student Id";
             // 
-            // textBox1
+            // textBoxStudentId
             // 
-            textBox1.Location = new Point(124, 25);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(180, 23);
-            textBox1.TabIndex = 2;
+            textBoxStudentId.Location = new Point(124, 25);
+            textBoxStudentId.Name = "textBoxStudentId";
+            textBoxStudentId.Size = new Size(180, 23);
+            textBoxStudentId.TabIndex = 2;
             // 
-            // textBox2
+            // textBoxFullName
             // 
-            textBox2.Location = new Point(124, 64);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(180, 23);
-            textBox2.TabIndex = 4;
+            textBoxFullName.Location = new Point(124, 64);
+            textBoxFullName.Name = "textBoxFullName";
+            textBoxFullName.Size = new Size(180, 23);
+            textBoxFullName.TabIndex = 4;
             // 
             // label2
             // 
@@ -83,13 +83,13 @@
             label2.TabIndex = 3;
             label2.Text = "Full Name";
             // 
-            // textBox3
+            // textBoxAddress
             // 
-            textBox3.Location = new Point(421, 26);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(367, 58);
-            textBox3.TabIndex = 6;
+            textBoxAddress.Location = new Point(421, 26);
+            textBoxAddress.Multiline = true;
+            textBoxAddress.Name = "textBoxAddress";
+            textBoxAddress.Size = new Size(367, 58);
+            textBoxAddress.TabIndex = 6;
             // 
             // label3
             // 
@@ -126,11 +126,11 @@
             ClientSize = new Size(817, 450);
             Controls.Add(dataGridViewStudent);
             Controls.Add(btnLoad);
-            Controls.Add(textBox3);
+            Controls.Add(textBoxAddress);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(textBoxFullName);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(textBoxStudentId);
             Controls.Add(label1);
             Controls.Add(btnSave);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -145,10 +145,10 @@
 
         private Button btnSave;
         private Label label1;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox textBoxStudentId;
+        private TextBox textBoxFullName;
         private Label label2;
-        private TextBox textBox3;
+        private TextBox textBoxAddress;
         private Label label3;
         private Button btnLoad;
         private DataGridView dataGridViewStudent;
