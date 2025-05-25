@@ -48,19 +48,29 @@
             txtSearch = new TextBox();
             label5 = new Label();
             txtGenerationNum = new TextBox();
-            tabControl1 = new TabControl();
+            tabControlAlgorithm = new TabControl();
             tabGen = new TabPage();
             label6 = new Label();
             tabBruteForce = new TabPage();
-            tabKMP = new TabPage();
-            tabDFA = new TabPage();
-            tabBoyesMore = new TabPage();
+            txtSearchBruteForce = new TextBox();
+            label8 = new Label();
+            richTextBox2 = new RichTextBox();
+            label7 = new Label();
             btnBruteForce = new Button();
+            tabKMP = new TabPage();
+            tabRabinKarp = new TabPage();
+            tabBoyesMore = new TabPage();
+            btnKMPSearch = new Button();
+            label9 = new Label();
+            label10 = new Label();
+            textBox1 = new TextBox();
+            tabSuffixTree = new TabPage();
             ((System.ComponentModel.ISupportInitialize)dataGridViewRun).BeginInit();
             mainMenuStrip.SuspendLayout();
-            tabControl1.SuspendLayout();
+            tabControlAlgorithm.SuspendLayout();
             tabGen.SuspendLayout();
             tabBruteForce.SuspendLayout();
+            tabKMP.SuspendLayout();
             SuspendLayout();
             // 
             // btnThuchien
@@ -227,18 +237,19 @@
             txtGenerationNum.TabIndex = 16;
             txtGenerationNum.Text = "1000";
             // 
-            // tabControl1
+            // tabControlAlgorithm
             // 
-            tabControl1.Controls.Add(tabGen);
-            tabControl1.Controls.Add(tabBruteForce);
-            tabControl1.Controls.Add(tabKMP);
-            tabControl1.Controls.Add(tabDFA);
-            tabControl1.Controls.Add(tabBoyesMore);
-            tabControl1.Location = new Point(12, 31);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(913, 231);
-            tabControl1.TabIndex = 18;
+            tabControlAlgorithm.Controls.Add(tabGen);
+            tabControlAlgorithm.Controls.Add(tabBruteForce);
+            tabControlAlgorithm.Controls.Add(tabKMP);
+            tabControlAlgorithm.Controls.Add(tabRabinKarp);
+            tabControlAlgorithm.Controls.Add(tabBoyesMore);
+            tabControlAlgorithm.Controls.Add(tabSuffixTree);
+            tabControlAlgorithm.Location = new Point(12, 31);
+            tabControlAlgorithm.Name = "tabControlAlgorithm";
+            tabControlAlgorithm.SelectedIndex = 0;
+            tabControlAlgorithm.Size = new Size(913, 231);
+            tabControlAlgorithm.TabIndex = 18;
             // 
             // tabGen
             // 
@@ -274,7 +285,11 @@
             // 
             // tabBruteForce
             // 
-            tabBruteForce.BackColor = Color.Transparent;
+            tabBruteForce.BackColor = Color.Gainsboro;
+            tabBruteForce.Controls.Add(txtSearchBruteForce);
+            tabBruteForce.Controls.Add(label8);
+            tabBruteForce.Controls.Add(richTextBox2);
+            tabBruteForce.Controls.Add(label7);
             tabBruteForce.Controls.Add(btnBruteForce);
             tabBruteForce.Location = new Point(4, 24);
             tabBruteForce.Name = "tabBruteForce";
@@ -283,8 +298,55 @@
             tabBruteForce.TabIndex = 1;
             tabBruteForce.Text = "Brute Force";
             // 
+            // txtSearchBruteForce
+            // 
+            txtSearchBruteForce.Location = new Point(299, 35);
+            txtSearchBruteForce.Name = "txtSearchBruteForce";
+            txtSearchBruteForce.Size = new Size(173, 23);
+            txtSearchBruteForce.TabIndex = 4;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(296, 14);
+            label8.Name = "label8";
+            label8.Size = new Size(103, 15);
+            label8.TabIndex = 3;
+            label8.Text = "Nội dung cần tìm:";
+            // 
+            // richTextBox2
+            // 
+            richTextBox2.Location = new Point(22, 35);
+            richTextBox2.Name = "richTextBox2";
+            richTextBox2.Size = new Size(244, 147);
+            richTextBox2.TabIndex = 2;
+            richTextBox2.Text = "";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(22, 13);
+            label7.Name = "label7";
+            label7.Size = new Size(78, 15);
+            label7.TabIndex = 1;
+            label7.Text = "Kết quả chạy:";
+            // 
+            // btnBruteForce
+            // 
+            btnBruteForce.Location = new Point(770, 17);
+            btnBruteForce.Name = "btnBruteForce";
+            btnBruteForce.Size = new Size(99, 23);
+            btnBruteForce.TabIndex = 0;
+            btnBruteForce.Text = "Thực hiện";
+            btnBruteForce.UseVisualStyleBackColor = true;
+            btnBruteForce.Click += btnBruteForce_Click;
+            // 
             // tabKMP
             // 
+            tabKMP.Controls.Add(textBox1);
+            tabKMP.Controls.Add(label10);
+            tabKMP.Controls.Add(label9);
+            tabKMP.Controls.Add(btnKMPSearch);
             tabKMP.Location = new Point(4, 24);
             tabKMP.Name = "tabKMP";
             tabKMP.Size = new Size(905, 203);
@@ -292,14 +354,14 @@
             tabKMP.Text = "Knuth Morris Pratt";
             tabKMP.UseVisualStyleBackColor = true;
             // 
-            // tabDFA
+            // tabRabinKarp
             // 
-            tabDFA.Location = new Point(4, 24);
-            tabDFA.Name = "tabDFA";
-            tabDFA.Size = new Size(905, 203);
-            tabDFA.TabIndex = 3;
-            tabDFA.Text = "Determistic";
-            tabDFA.UseVisualStyleBackColor = true;
+            tabRabinKarp.BackColor = Color.Gainsboro;
+            tabRabinKarp.Location = new Point(4, 24);
+            tabRabinKarp.Name = "tabRabinKarp";
+            tabRabinKarp.Size = new Size(905, 203);
+            tabRabinKarp.TabIndex = 3;
+            tabRabinKarp.Text = "Rabin Karp";
             // 
             // tabBoyesMore
             // 
@@ -310,21 +372,56 @@
             tabBoyesMore.Text = "Boyer Moore";
             tabBoyesMore.UseVisualStyleBackColor = true;
             // 
-            // btnBruteForce
+            // btnKMPSearch
             // 
-            btnBruteForce.Location = new Point(770, 17);
-            btnBruteForce.Name = "btnBruteForce";
-            btnBruteForce.Size = new Size(75, 23);
-            btnBruteForce.TabIndex = 0;
-            btnBruteForce.Text = "Thực hiện";
-            btnBruteForce.UseVisualStyleBackColor = true;
+            btnKMPSearch.Location = new Point(755, 23);
+            btnKMPSearch.Name = "btnKMPSearch";
+            btnKMPSearch.Size = new Size(115, 23);
+            btnKMPSearch.TabIndex = 0;
+            btnKMPSearch.Text = "Thực hiện";
+            btnKMPSearch.UseVisualStyleBackColor = true;
+            btnKMPSearch.Click += btnKMPSearch_Click;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(22, 16);
+            label9.Name = "label9";
+            label9.Size = new Size(38, 15);
+            label9.TabIndex = 1;
+            label9.Text = "label9";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(328, 23);
+            label10.Name = "label10";
+            label10.Size = new Size(97, 15);
+            label10.TabIndex = 2;
+            label10.Text = "Dữ liệu tìm kiếm:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(328, 50);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(210, 23);
+            textBox1.TabIndex = 3;
+            // 
+            // tabSuffixTree
+            // 
+            tabSuffixTree.BackColor = Color.Gainsboro;
+            tabSuffixTree.Location = new Point(4, 24);
+            tabSuffixTree.Name = "tabSuffixTree";
+            tabSuffixTree.Size = new Size(905, 203);
+            tabSuffixTree.TabIndex = 5;
+            tabSuffixTree.Text = "Suffix Tree";
             // 
             // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(937, 511);
-            Controls.Add(tabControl1);
+            Controls.Add(tabControlAlgorithm);
             Controls.Add(btnTimkiem);
             Controls.Add(dataGridViewRun);
             Controls.Add(btnTuongdong);
@@ -338,10 +435,13 @@
             ((System.ComponentModel.ISupportInitialize)dataGridViewRun).EndInit();
             mainMenuStrip.ResumeLayout(false);
             mainMenuStrip.PerformLayout();
-            tabControl1.ResumeLayout(false);
+            tabControlAlgorithm.ResumeLayout(false);
             tabGen.ResumeLayout(false);
             tabGen.PerformLayout();
             tabBruteForce.ResumeLayout(false);
+            tabBruteForce.PerformLayout();
+            tabKMP.ResumeLayout(false);
+            tabKMP.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -367,13 +467,22 @@
         private TextBox txtSearch;
         private Label label5;
         private TextBox txtGenerationNum;
-        private TabControl tabControl1;
+        private TabControl tabControlAlgorithm;
         private TabPage tabGen;
         private TabPage tabBruteForce;
         private TabPage tabKMP;
-        private TabPage tabDFA;
+        private TabPage tabRabinKarp;
         private TabPage tabBoyesMore;
         private Label label6;
         private Button btnBruteForce;
+        private Label label7;
+        private RichTextBox richTextBox2;
+        private TextBox txtSearchBruteForce;
+        private Label label8;
+        private TextBox textBox1;
+        private Label label10;
+        private Label label9;
+        private Button btnKMPSearch;
+        private TabPage tabSuffixTree;
     }
 }

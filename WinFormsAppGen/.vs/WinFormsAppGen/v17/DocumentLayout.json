@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|d:\\do an\\ungdunggen\\winformsappgen\\searchknuthmorrispratt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|solutionrelative:searchknuthmorrispratt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|d:\\do an\\ungdunggen\\winformsappgen\\searchbruteforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|solutionrelative:searchbruteforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|d:\\do an\\ungdunggen\\winformsappgen\\searchrabinkarp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|solutionrelative:searchrabinkarp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|d:\\do an\\ungdunggen\\winformsappgen\\searchboyermoore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|solutionrelative:searchboyermoore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|d:\\do an\\ungdunggen\\winformsappgen\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDF220D6-F97F-4FAD-97EE-60064CEE7345}|WinFormsAppGen.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,7 +106,84 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchBoyerMoore.cs",
+              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchBoyerMoore.cs",
+              "RelativeDocumentMoniker": "SearchBoyerMoore.cs",
+              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchBoyerMoore.cs",
+              "RelativeToolTip": "SearchBoyerMoore.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAIwEgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:42:02.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SearchRabinKarp.cs",
+              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchRabinKarp.cs",
+              "RelativeDocumentMoniker": "SearchRabinKarp.cs",
+              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchRabinKarp.cs",
+              "RelativeToolTip": "SearchRabinKarp.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T02:35:21.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchKnuthMorrisPratt.cs",
+              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchKnuthMorrisPratt.cs",
+              "RelativeDocumentMoniker": "SearchKnuthMorrisPratt.cs",
+              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchKnuthMorrisPratt.cs",
+              "RelativeToolTip": "SearchKnuthMorrisPratt.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T01:48:26.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SearchBruteForce.cs",
+              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchBruteForce.cs",
+              "RelativeDocumentMoniker": "SearchBruteForce.cs",
+              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\SearchBruteForce.cs",
+              "RelativeToolTip": "SearchBruteForce.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAiwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T16:23:59.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs",
+              "RelativeToolTip": "frmMain.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAawBoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T16:04:44.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs",
+              "RelativeDocumentMoniker": "frmMain.cs",
+              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs [Design]",
+              "RelativeToolTip": "frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:52:33.616Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CGenChromosome.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\CGenChromosome.cs",
               "RelativeDocumentMoniker": "CGenChromosome.cs",
@@ -103,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MutipleTextChromosome.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\MutipleTextChromosome.cs",
               "RelativeDocumentMoniker": "MutipleTextChromosome.cs",
@@ -111,12 +204,11 @@
               "RelativeToolTip": "MutipleTextChromosome.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAawBAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:54:19.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T15:54:19.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "frmStudent.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmStudent.cs",
               "RelativeDocumentMoniker": "frmStudent.cs",
@@ -129,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MultipleTextFitness.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\MultipleTextFitness.cs",
               "RelativeDocumentMoniker": "MultipleTextFitness.cs",
@@ -137,37 +229,11 @@
               "RelativeToolTip": "MultipleTextFitness.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAwwAsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:35:54.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T04:35:54.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMain.cs",
-              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs",
-              "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AQIAAPEAAAAAAAAAAAD4v/8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:04:39.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmMain.cs [Design]",
-              "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs",
-              "RelativeDocumentMoniker": "frmMain.cs",
-              "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmMain.cs [Design]",
-              "RelativeToolTip": "frmMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T07:58:37.978Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TextFitnessSimilar.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\TextFitnessSimilar.cs",
               "RelativeDocumentMoniker": "TextFitnessSimilar.cs",
@@ -175,12 +241,11 @@
               "RelativeToolTip": "TextFitnessSimilar.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwA0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T16:37:35.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T16:37:35.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MultiplesTextFitness.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\MultiplesTextFitness.cs",
               "RelativeDocumentMoniker": "MultiplesTextFitness.cs",
@@ -188,12 +253,11 @@
               "RelativeToolTip": "MultiplesTextFitness.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAawCUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T15:56:54.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T15:56:54.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "MTextChromosome.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\MTextChromosome.cs",
               "RelativeDocumentMoniker": "MTextChromosome.cs",
@@ -201,12 +265,11 @@
               "RelativeToolTip": "MTextChromosome.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAlwB0AAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T16:30:49.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-06T16:30:49.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "OTMultipleTextFitness.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\OTMultipleTextFitness.cs",
               "RelativeDocumentMoniker": "OTMultipleTextFitness.cs",
@@ -214,12 +277,11 @@
               "RelativeToolTip": "OTMultipleTextFitness.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T15:33:36.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-07T15:33:36.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "CStudent.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\CStudent.cs",
               "RelativeDocumentMoniker": "CStudent.cs",
@@ -227,12 +289,11 @@
               "RelativeToolTip": "CStudent.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAmwDYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:58:59.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T04:58:59.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "TextChromosome.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\TextChromosome.cs",
               "RelativeDocumentMoniker": "TextChromosome.cs",
@@ -240,12 +301,11 @@
               "RelativeToolTip": "TextChromosome.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAgwB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T15:20:28.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T15:20:28.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "CosineSimilarityFitness.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\CosineSimilarityFitness.cs",
               "RelativeDocumentMoniker": "CosineSimilarityFitness.cs",
@@ -253,12 +313,11 @@
               "RelativeToolTip": "CosineSimilarityFitness.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:09:11.861Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T17:09:11.861Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "CStatusGenetic.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\CStatusGenetic.cs",
               "RelativeDocumentMoniker": "CStatusGenetic.cs",
@@ -266,12 +325,11 @@
               "RelativeToolTip": "CStatusGenetic.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAD4vzsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:08:59.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T17:08:59.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Common.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\Common.cs",
               "RelativeDocumentMoniker": "Common.cs",
@@ -279,24 +337,22 @@
               "RelativeToolTip": "Common.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:12:12.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T17:12:12.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "frmStudent.cs [Design]",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmStudent.cs",
               "RelativeDocumentMoniker": "frmStudent.cs",
               "ToolTip": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\frmStudent.cs [Design]",
               "RelativeToolTip": "frmStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:47:15.481Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-01T04:47:15.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "TextFitness.cs",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\TextFitness.cs",
               "RelativeDocumentMoniker": "TextFitness.cs",
@@ -304,12 +360,11 @@
               "RelativeToolTip": "TextFitness.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBZwBAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T16:36:01.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T16:36:01.46Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Do An\\UngdungGen\\WinFormsAppGen\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -317,8 +372,7 @@
               "RelativeToolTip": "App.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-25T16:46:50.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T16:46:50.401Z"
             }
           ]
         }

@@ -218,7 +218,7 @@ namespace WinFormsAppGen
         {
             var targetValue = txtSearch.Text;
             string[] targetTexts = ListStudentName.ToArray();  // new string[] { "Hello Friend", "Hello Papa", "Hella", "Hello" };
-            
+
             // Khởi tạo fitness function
             var fitness = new MultiplesTextFitness(targetTexts, targetValue);
 
@@ -244,7 +244,7 @@ namespace WinFormsAppGen
             ga.Start();
 
             // Lấy kết quả tốt nhất
-            var bestChromosome = ga.BestChromosome;            
+            var bestChromosome = ga.BestChromosome;
             int bestIndex = (int)bestChromosome.GetGene(0).Value;
             //string bestText = targetTexts[bestIndex];
 
@@ -269,9 +269,18 @@ namespace WinFormsAppGen
             else
             {
                 txtKetqua.Text = "Chỉ số không hợp lệ.";
-            }            
-            
+            }
+
+        }
+
+        private void btnBruteForce_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKMPSearch_Click(object sender, EventArgs e)
+        {
+
         }
     }
-
 }
